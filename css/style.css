@@ -96,6 +96,7 @@ button {
 }
 .banner-section .banner-inner {
   text-align: center;
+  padding-top: 249px;
 }
 .banner-section .banner-inner h2 {
   font-size: 54px;
@@ -548,6 +549,7 @@ button {
   color: #fd6a00;
   font-family: Jost-SemiBold;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 .about-page-banner .about-page-banner-dec h2 {
   font-size: 40px;
@@ -759,6 +761,7 @@ td:nth-child(2) {
   color: #fd6a00;
   font-family: Jost-SemiBold;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 .team-page-banner-dec h2 {
   width: 70%;
@@ -829,6 +832,16 @@ td:nth-child(2) {
   .business-img {
     left: 25%;
   }
+  .banner-section .banner-inner button {
+    margin-top: 30px;
+  }
+  .banner-section .banner-inner {
+    text-align: center;
+    padding-top: 150px;
+  }
+  .banner-section .banner-inner h2 {
+    font-size: 48px;
+  }
   .business-section .business-left h2 {
     width: 100%;
     margin-left: unset;
@@ -858,10 +871,21 @@ td:nth-child(2) {
   }
   /* about-page */
   .platform-section {
-    margin-top: -100px;
+    margin-top: -180px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   .about-page-banner .about-page-banner-img {
     margin-top: 220px;
+  }
+  .about-page-banner .about-page-banner-dec h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  /* TEam-page */
+  .team-page-banner .team-page-banner-dec h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -873,8 +897,9 @@ td:nth-child(2) {
     font-size: 16px;
     padding: 0px !important;
   }
+
   .banner-section .banner-inner h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .banner-section .banner-inner button {
     margin-top: 35px;
@@ -934,8 +959,12 @@ td:nth-child(2) {
     width: 100%;
   }
   .about-page-banner .about-page-banner-img {
-    margin-top: 400px;
+    margin-top: 300px;
   }
+  .about-page-banner .about-page-banner-dec h2 {
+    font-size: 29px;
+  }
+
   /* solutions-page */
   .solutions-banner-dec ul li {
     font-size: 20px;
@@ -1341,6 +1370,9 @@ td:nth-child(2) {
   }
   .menu-footer ul {
     flex-wrap: wrap;
+  }
+  .banner-section .banner-inner {
+    padding-top: 100px;
   }
   .banner-section .banner-inner h2 {
     font-size: 40px;
