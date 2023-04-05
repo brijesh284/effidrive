@@ -1077,7 +1077,7 @@ td:nth-child(2) {
     background: #ffffff;
     border-radius: 20px;
     padding: 20px;
-    text-align: end;
+    text-align: start;
   }
   .second-head .navbar-collapse {
     background: #272626;
@@ -1087,7 +1087,8 @@ td:nth-child(2) {
   }
   .second-head .login-btn {
     border: 1px solid #fd6a00;
-    color: #fd6a00;
+    color: #fff;
+    background-color: #fd6a00;
   }
   .header-wrap ul li {
     padding: 0px;
@@ -1099,8 +1100,8 @@ td:nth-child(2) {
   }
   .login-btn {
     border: 1px solid #fd6a00;
-    background: transparent;
-    color: #fd6a00;
+    background: #fd6a00;
+    color: #fff;
     margin-right: 11px;
   }
   .navbar-nav {
